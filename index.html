@@ -1,0 +1,24 @@
+<!--
+ * @desc: 
+ * @Author: Yi Zhou
+ * @Date: 2022-03-23 14:10:50
+ * @Last Modified by: Yi Zhou
+ * @Last Modified time: 
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app"></div>
+    <!-- 
+        有个疑惑点使用了dev-server之后这块的src为啥使用 dist/bundle.js ./dist/bundle.js bundle.js 都可以
+        按理来说启动服务器之后src应该是需要通过 http://localhost:8080/dist/bundle.js的方式访问
+        我认为是dev-server帮忙做了一些处理
+    -->
+    <script src="./dist/bundle.js"></script>
+</body>
+</html>
