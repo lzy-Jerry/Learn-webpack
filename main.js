@@ -7,5 +7,5 @@
  */
 import show from './show';
 import './main.css';
-
+console.log(123);
 show('Webpack');
